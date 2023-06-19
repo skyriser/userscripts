@@ -15,16 +15,16 @@
     var divElements = document.querySelectorAll('div > span.ds_tag');
 
     for (var i = 0; i < divElements.length; i++) {
-        var divElement = divElements[i];
-        var liElement = divElement.parentNode;
+      var divElement = divElements[i];
+      var liElement = divElement.parentNode;
 
-        while (liElement && liElement.tagName !== 'LI') {
-            liElement = liElement.parentNode;
-        }
+      while (liElement && liElement.tagName !== 'LI') {
+        liElement = liElement.parentNode;
+      }
 
-        if (liElement) {
-            liElement.style.display = 'none';
-        }
+      if (liElement) {
+        liElement.style.display = 'none';
+      }
     }
   };
 
