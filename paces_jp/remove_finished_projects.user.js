@@ -1,9 +1,10 @@
 // ==UserScript==
-// @name         Pace.jp / Remove finish status projects from select boxes
+// @name         paces.jp / Remove finish status projects from select boxes
 // @namespace    https://app.paces.jp/report/
 // @version      1.0
 // @description  "検収済" となっているプロジェクトを非表示にする
 // @match        https://app.paces.jp/report*
+// @author       @skyriser
 // @grant        none
 // ==/UserScript==
 
